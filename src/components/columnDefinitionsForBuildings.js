@@ -1,0 +1,16 @@
+export const columnDefs = [
+    {headerName: 'Адрес', field: 'address'},
+    {headerName: 'Площадь жилых помещений', field: 'area_of_hatas', sort: "asc"},
+    {headerName: 'Год постройки', field: 'building_year', sort: "asc"},
+    {headerName: 'Код', field: 'code', sort: "asc"},
+    {headerName: 'Код erc', field: 'code_erc', sort: "asc"},
+    {headerName: 'Состояние здания', field: 'condition', sort: "asc"},
+    {headerName: 'Этажность', field: 'count_of_storeys', sort: "asc"},
+    {headerName: 'Вид материала', field: 'capital_group', sort: "asc"},
+    {headerName: 'Район', field: 'district', sort: "asc"},
+    {headerName: 'Общая площадь', field: 'full_area', sort: "asc"},
+    {headerName: 'Муниципалитет', field: 'municipality', sort: "asc"},
+    {headerName: 'Обслуживающая организация', field: 'organization', sort: "asc"},
+    {headerName: 'Статус проверки', field: 'status', sort: "asc"},
+    {headerName: 'Тип дома', field: 'type', sort: "asc"},
+]
